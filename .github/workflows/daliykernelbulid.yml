@@ -26,8 +26,8 @@ on:
         description: "修改内核名称"
         required: true
         default: '-android15-8-g013ec21bba94-abogki383916444'
-    schedule:
-    - cron: '0 18 * * *'  # UTC时间每天18:00（北京时间凌晨2:00）
+    #schedule:
+    #- cron: '0 18 * * *'  # UTC时间每天18:00（北京时间凌晨2:00）
 
 jobs:
   build:
